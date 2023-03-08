@@ -77,6 +77,9 @@ function addCard(){
 
     const newCard = document.createElement('div');
     newCard.classList.add('card');
+    newCard.classList.add('rounded-5');
+    newCard.classList.add('my-3');
+    newCard.classList.add('cardCustomized');
     newCard.style = 'width: 18rem;';
 
     return newCard  
@@ -88,6 +91,10 @@ function addDiv(){
 
     const newDiv = document.createElement("div");
     newDiv.classList.add('card-body');
+    newDiv.classList.add('rounded-5');
+    newDiv.classList.add('p-4');
+    newDiv.classList.add('card-body-customized');
+
 
     return newDiv
 }

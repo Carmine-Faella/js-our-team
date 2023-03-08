@@ -4,10 +4,37 @@
     box-sizing: border-box;
 }
 
+
+
+.cardCreate{
+    width: 75%;
+    margin: auto;
+}
+
 li{
     padding: 1rem;
 }
 
 .image{
+    object-fit: cover;
+    border-radius:50%;
     width: 100%;
 }
+
+.position{
+    padding-bottom: 2rem;
+}
+
+h1.title{
+    padding-bottom: 1rem;
+    font-size: 20px ;
+}
+
+.card-body-customized{
+    background-color: black;
+}
+
+h1.team{
+    font-size: 80px;
+}
+
